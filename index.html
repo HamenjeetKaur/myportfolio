@@ -1,135 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hamenjeet Kaur - Portfolio</title>
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamenjeet Kaur - Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Hamenjeet Kaur</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="picture">
       <div class="container">
-        <a class="navbar-brand" href="#">Hamenjeet Kaur</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
+          <img src="myimage.jpg" alt="Hamenjeet Kaur" class="img-fluid rounded-circle mx-auto d-block" style="max-width: 200px;">
       </div>
-    </nav>
-  </header>
-
-  <section id="about" class="py-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <img src="myimage.jpg" alt="Hamenjeet Kaur" class="img-fluid rounded-circle mb-3">
-        </div>
-        <div class="col-md-6">
-  <section id="about" class="py-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <h2>About Me</h2>
-          <p>I am a passionate student in the IT industry, equipped with advanced communication and planning skills...</p>
-          <h3>Technical Skills</h3>
-          <ul>
-            <li>JavaFX</li>
-            <li>MySQL</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>GitHub</li>
-            <li>ASP.NET, F#</li>
-            <li>Figma</li>
-          </ul>
-        </div>
-      </div>
-    </div>
   </section>
-
-  <section id="projects" class="py-5 bg-light">
-    <div class="container">
-      <h2>Projects</h2>
-      <div class="row">
-        <div class="col-md-3">
-          <h3>HR Management Software</h3>
-          <p>Tasks Performed: <br>
-            1. Creating GUI. <br>
-            2. Integrating database with an application using ORM. <br>
-            3. Following MVC framework. <br>
-            4. Performing CRUD operations. <br>
-            5. Performing JUnit testing. <br>
-            6. Adding Authentication. <br>
-            <a href="https://github.com/HamenjeetK">GitHub Link</a>
-          </p>
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Web developer with a strong foundation in programming, specializing in creating dynamic, engaging websites. Experienced in building responsive, user-friendly interfaces. Seeking opportunities to apply technical skills and contribute to innovative web projects. Passionate about staying updated with the latest web technologies and trends to deliver cutting-edge solutions.</p>
+            <h3>Technical Skills</h3>
+            <ul>
+                <li>JavaFX</li>
+                <li>MySQL</li>
+                <li>PHP</li>
+                <li>JavaScript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>GitHub</li>
+                <li>ASP.NET</li>
+                <li>F#</li>
+                <li>Figma</li>
+            </ul>
         </div>
-        <div class="col-md-3">
-          <h3>Shopping Cart using PHP </h3>
-          <p>Tasks Performed: <br>
-            1.	Leveraged the Bootstrap framework to develop a responsive shopping cart website, ensuring optimal user experience across devices.<br>
-            2.	Combined HTML and CSS to design and style the website, focusing on intuitive navigation and visually appealing layout.<br>
-            3.	Integrated database functionality to the website, enabling dynamic loading of items based on user searches and interactions with the cart.<br>
-            4.	Implemented PHP to develop the backend functionality of the shopping cart website, enabling features such as session handling, item management, and cart operations.<br>
-             <br>
-            <a href="https://github.com/HamenjeetKaur">GitHub Link</a>
-          </p>
+    </section>
+    <section id="portfolio">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <div class="row">
+                <div class="col">
+                    <h3>My Portfolio Website</h3>
+                    <p>Utilized HTML, CSS, and JavaScript to create a dynamic and user-friendly website.</p>
+                </div>
+                <div class="col">
+                    <h3>Shopping Cart using Java</h3>
+                    <p>Developed a responsive shopping cart website using Spring Boot, HTML, CSS, and Java.</p>
+                </div>
+                <div class="col">
+                    <h3>Shopping Cart using PHP</h3>
+                    <p>Developed a responsive shopping cart website using Bootstrap, HTML, CSS, and PHP.</p>
+                </div>
+                <div class="col">
+                    <h3>HR Management Application</h3>
+                    <p>Designed the visual interface, connected application data to a database, and implemented user authentication features.</p>
+                </div>
+            </div>
         </div>
-        <div class="col-md-3">
-          <h3>Shopping Cart using Java</h3>
-          <p>Tasks Performed: <br>
-            1.	Utilised the Spring Boot framework to create a responsive shopping cart website, ensuring a seamless user experience on various devices.<br>
-            2.	Employed HTML and CSS to craft the website's design, prioritising user-friendly navigation and an attractive layout.<br>
-            3.	Integrated database capabilities into the website, allowing items to load dynamically based on user searches and cart interactions.<br>
-            4.	Developed the backend functionality of the shopping cart website using Java, enabling essential features like session management, item administration, and cart operations.<br>
- <br>
-            <a href="https://github.com/HamenjeetKaur">GitHub Link</a>
-          </p>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Email: hamenjeet2107@gmail.com</p>
+            <p>LinkedIn: <a href="www.linkedin.com/in/hamenjeetkaur/">Hamenjeet Kaur</a></p>
         </div>
-        <div class="col-md-3">
-          <h3>Scientific Calculator</h3>
-          <p>Tasks Performed: <br>
-            1. Creating structure of calculator using HTML. <br>
-            2. Giving style with CSS. <br>
-            3. Add functionality to the buttons using JavaScript. <br>
-            <a href="https://github.com/HamenjeetKaur">GitHub Link</a>
-          </p>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Hamenjeet Kaur</p>
         </div>
-
-      </div>
-    </div>
-  </section>
-
-  <section id="contact" class="py-5">
-    <div class="container">
-      <h2>Contact Me</h2>
-      <ul>
-        <li>Phone: +1 647 719 6004</li>
-        <li>Email: hamenjeet2107@gmail.com</li>
-        <li>Location: Toronto, ON</li>
-        <li><a href="www.linkedin.com/in/hamenjeetkaur/">LinkedIn</a></li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- Bootstrap JS and dependencies -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

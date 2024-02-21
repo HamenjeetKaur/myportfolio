@@ -1,21 +1,24 @@
-/* styles.css */
-
 body {
   font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f8ff; /* Light blue background */
 }
-
 header {
-  background-color: #f8f9fa;
+  background-color: #87ceeb; /* Light blue navbar */
 }
-
-.navbar-brand {
-  font-weight: bold;
+header a {
+  color: #fff; /* White text for navbar links */
 }
-
 section {
-  text-align: center;
+  padding: 20px;
 }
-
-#projects {
-  background-color: #f0f0f0;
+footer {
+  background-color: #87ceeb; /* Light blue footer */
+  color: #fff; /* White text for footer */
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
